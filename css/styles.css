@@ -1,0 +1,32 @@
+.name {
+  color: green;
+}
+
+img {
+  height: 250px;
+}
+
+.firsttable {
+  border: 1px solid black;
+}
+.firsttable th, td {
+  border: 1px solid black;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.secondtable {
+  border: 1px solid black;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.secondtable th, td{
+  border: 1px solid black;
+  text-align: center;
+}
+
+.redbox {
+  border: 1px solid red;
+  color: red;
+}
