@@ -1,3 +1,6 @@
+h1 {
+
+}
 .name {
   color: green;
 }
@@ -41,4 +44,75 @@ img {
 
 .audio {
   margin-top: 50px;
+}
+
+hr {
+  margin: 30px 0;
+}
+.target {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  padding: 46px;
+  box-sizing: border-box;
+}
+
+.redtarget {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  border: 3px dotted black;
+}
+
+.shapedtable {
+  border: 2px solid black;
+  width: 300px;
+  height: 150px;
+}
+
+.greencolorbox {
+  background-color: lightgreen;
+}
+
+.whitebox1 {
+  border: 2px solid black;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.purpleblock{
+  background-color: purple;
+  height: 50px;
+  margin: 10px;
+}
+
+.purpleblock:nth-child(1) {
+  width: 100px;
+}
+
+.purpleblock:nth-child(2) {
+  width: 200px;
+}
+
+.whitebox2 {
+  border: 2px solid black;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.purpleblock2 {
+  background-color: purple;
+  height: 50px;
+  margin: 10px;
+}
+
+
+.purpleblock2:nth-child(1) {
+  width: 200px;
+  display: flex;
+  justify-content: right;
+}
+
+.purpleblock2:nth-child(2) {
+  width: 100px;
 }
