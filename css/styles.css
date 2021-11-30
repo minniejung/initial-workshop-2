@@ -33,7 +33,7 @@ img {
   text-align: center;
 }
 
-.redbox {
+.firsttable_redbox {
   border: 1px solid red;
   color: red;
 }
@@ -74,16 +74,19 @@ hr {
   background-color: lightgreen;
 }
 
-.whitebox1 {
+.whitebox {
   border: 2px solid black;
   width: 300px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;;
 }
 
 .purpleblock{
   background-color: purple;
-  height: 50px;
+  height: 30px;
   margin: 10px;
+  padding-top: 15px;
+  padding-left: 10px;
+  color: white;
 }
 
 .purpleblock:nth-child(1) {
@@ -94,25 +97,60 @@ hr {
   width: 200px;
 }
 
-.whitebox2 {
-  border: 2px solid black;
-  width: 300px;
-  margin-bottom: 10px;
-}
-
 .purpleblock2 {
   background-color: purple;
-  height: 50px;
+  height: 30px;
   margin: 10px;
+  padding-top: 15px;
+  padding-left: 10px;
+  color: white;
 }
-
 
 .purpleblock2:nth-child(1) {
   width: 200px;
-  display: flex;
-  justify-content: right;
+  margin-left: 80px;
 }
 
 .purpleblock2:nth-child(2) {
   width: 100px;
+}
+
+.boxes { 
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.redbox {
+  background-color: red;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  padding: 30px;
+  color: white;
+}
+
+
+.blackbox {
+  background-color: black;
+  border-right: 2px solid red;
+  border-left: 2px solid red;
+  padding: 30px;
+  color: white;
+}
+
+.orangebox {
+  background-color: orange;
+  border-right: 2px solid green;
+  border-left: 2px solid green;
+  padding: 30px;
+  color: white;
+}
+
+.greenbox {
+  background-color: green;
+  border-right: 2px solid orange;
+  border-left: 2px solid orange;
+  padding: 30px;
+  color: white;
 }
